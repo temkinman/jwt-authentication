@@ -1,0 +1,18 @@
+original: https://memorycrypt.hashnode.dev/create-a-web-api-with-jwt-authentication-and-aspnet-core-identity
+
+Add Authorization
+Install Nuget package Microsoft.AspNetCore.Authentication.JwtBearer
+	(dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 7.0.1)
+
+Add into appsettings.json
+
+"token": {
+    "key": "TWVtb3J5Q3J5cHQ=",
+    "issuer": "MemorycryptAuthServer",
+    "audience": "PostmanClient",
+    "subject": "authToken"
+  }
+
+Here, the key field contains the secret key using which we will encode our tokens. You can provide any Base64 encoded string as your key.
+
+The issuer, audience, and subject fields are used by JWT token creation logic, and embedded in every token that is generated.
