@@ -1,5 +1,8 @@
 original: https://memorycrypt.hashnode.dev/create-a-web-api-with-jwt-authentication-and-aspnet-core-identity
 
+collection requests in postman
+https://api.postman.com/collections/13477700-0b7e1962-3c6a-4fe4-ac3c-e987192e0028?access_key=PMAT-01GP3P9BF7HCNN2SB0WQ9YQ871
+
 Add Authorization
 Install Nuget package Microsoft.AspNetCore.Authentication.JwtBearer
 	(dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 7.0.1)
